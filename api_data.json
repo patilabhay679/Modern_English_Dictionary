@@ -1,0 +1,1970 @@
+[
+    {
+        "text": "In a moment I'm going to tell you about a certain\u00a0\nreally nice puzzle involving the shadow of a cube.\u00a0\u00a0",
+        "start": 0.08,
+        "duration": 4.16
+    },
+    {
+        "text": "But before we get to that I should say that the\u00a0\npoint of this video is not exactly the puzzle,\u00a0\u00a0",
+        "start": 4.8,
+        "duration": 4.08
+    },
+    {
+        "text": "per se, it's about two distinct problem-solving\u00a0\nstyles that are reflected in two different ways\u00a0\u00a0",
+        "start": 8.88,
+        "duration": 5.12
+    },
+    {
+        "text": "that we can tackle this problem. In fact\u00a0\nlet's anthropomorphize those two different\u00a0\u00a0",
+        "start": 14.0,
+        "duration": 3.68
+    }, {
+        "text": "styles by imagining two students, Alice and\u00a0\nBob who embody each one of the approaches.",
+        "start": 17.68,
+        "duration": 4.96
+    }, {
+        "text": "So Bob will be the kind of student who really\u00a0\nloves calculation. As soon as there's a moment\u00a0\u00a0",
+        "start": 23.28,
+        "duration": 4.8
+    }, {
+        "text": "when he can dig into the details and get a very\u00a0\nconcrete view of the concrete situation in front\u00a0\u00a0",
+        "start": 28.08,
+        "duration": 4.32
+    }, {
+        "text": "of him, that's where he's the most pleased.\u00a0\nAlice on the other hand is more inclined to\u00a0\u00a0",
+        "start": 32.4,
+        "duration": 4.8
+    }, {
+        "text": "procrastinate the computations, not because she\u00a0\ndoesn't know how to do them or doesn't want to,\u00a0\u00a0",
+        "start": 37.2,
+        "duration": 4.48
+    }, {
+        "text": "per se, but she prefers to get a nice high-level\u00a0\ngeneral overview of the kind of problem she's\u00a0\u00a0",
+        "start": 41.68,
+        "duration": 5.52
+    }, {
+        "text": "dealing with, the general shape that it has,\u00a0\nbefore she digs into the computations themselves.\u00a0\u00a0",
+        "start": 47.2,
+        "duration": 4.08
+    }, {
+        "text": "She's most pleased if she understands not just\u00a0\nthe specific question sitting in front of her,\u00a0\u00a0",
+        "start": 52.0,
+        "duration": 4.24
+    }, {
+        "text": "but also the broadest possible\u00a0\nway that you could generalize it,\u00a0\u00a0",
+        "start": 56.24,
+        "duration": 3.6
+    }, {
+        "text": "and especially if the more general\u00a0\nview can lend itself to more swift\u00a0\u00a0",
+        "start": 59.84,
+        "duration": 3.2
+    }, {
+        "text": "and elegant computations once she does\u00a0\nactually sit down to carry them out.",
+        "start": 63.04,
+        "duration": 8.8
+    }, {
+        "text": "Now the puzzle that both of them are going to\u00a0\nbe faced with is to find the average area for\u00a0\u00a0",
+        "start": 73.12,
+        "duration": 4.72
+    }, {
+        "text": "the shadow of a cube. So if I have a cube kind of\u00a0\nsitting here hovering in space, there are, a few\u00a0\u00a0",
+        "start": 77.84,
+        "duration": 5.44
+    }, {
+        "text": "things that influence the area of its shadow. One\u00a0\nobvious one would be the size of the cube, smaller\u00a0\u00a0",
+        "start": 83.28,
+        "duration": 4.88
+    }, {
+        "text": "cube smaller shadow. But also if it's sitting\u00a0\nat different orientations, those orientations\u00a0\u00a0",
+        "start": 88.16,
+        "duration": 4.96
+    }, {
+        "text": "correspond to different particular shadows with\u00a0\ndifferent areas. And when I say find the average\u00a0\u00a0",
+        "start": 93.12,
+        "duration": 4.64
+    }, {
+        "text": "here, what I mean is the average over all possible\u00a0\norientations for a particular size of the cube.",
+        "start": 97.76,
+        "duration": 5.2
+    }, {
+        "text": "The astute among you might point out that it\u00a0\nalso matters a lot where the light source is.\u00a0\u00a0",
+        "start": 104.16,
+        "duration": 4.08
+    }, {
+        "text": "If the light source were very low close to the\u00a0\ncube itself then the shadow ends up larger and if\u00a0\u00a0",
+        "start": 108.24,
+        "duration": 4.96
+    }, {
+        "text": "the light source were kind of positioned laterally\u00a0\noff to the side, this can distort the shadow and\u00a0\u00a0",
+        "start": 113.2,
+        "duration": 4.08
+    }, {
+        "text": "give it a very different shape. Accounting\u00a0\nfor that light position stands to be highly\u00a0\u00a0",
+        "start": 117.28,
+        "duration": 4.16
+    }, {
+        "text": "interesting in its own right, but the puzzle is\u00a0\nhard enough as it is, so at least initially let's\u00a0\u00a0",
+        "start": 121.44,
+        "duration": 4.48
+    }, {
+        "text": "do the easiest thing we can and say that the light\u00a0\nis directly above the cube and really far away.\u00a0\u00a0",
+        "start": 125.92,
+        "duration": 5.6
+    }, {
+        "text": "Effectively infinitely far so that all we're\u00a0\nconsidering is a flat projection, in the sense\u00a0\u00a0",
+        "start": 131.52,
+        "duration": 5.12
+    }, {
+        "text": "that if you look at any coordinates (x, y, z)\u00a0\nin space the flat projection would be (x, y, 0)",
+        "start": 136.64,
+        "duration": 5.2
+    }, {
+        "text": "So just to get our bearings, the easiest\u00a0\nsituation to think about would be if the cube is\u00a0\u00a0",
+        "start": 142.48,
+        "duration": 4.16
+    }, {
+        "text": "straight up with two of its faces parallel to the\u00a0\nground. In that case this flat projection shadow\u00a0\u00a0",
+        "start": 146.64,
+        "duration": 5.12
+    }, {
+        "text": "is simply a square, and if we say the side lengths\u00a0\nof the cube are s, then the area of that shadow is\u00a0\u00a0",
+        "start": 151.76,
+        "duration": 5.52
+    }, {
+        "text": "s squared. And by the way, anytime that I have\u00a0\na label up on these animations like the one down\u00a0\u00a0",
+        "start": 157.28,
+        "duration": 4.8
+    }, {
+        "text": "here I'll be assuming that the relevant cube\u00a0\nhas a side length of 1. Another special case\u00a0\u00a0",
+        "start": 162.08,
+        "duration": 5.04
+    }, {
+        "text": "among all the orientations that's fun to think\u00a0\nabout is if the long diagonal is parallel to\u00a0\u00a0",
+        "start": 167.12,
+        "duration": 4.88
+    }, {
+        "text": "the direction of the light. In that case the\u00a0\nshadow actually looks like a regular hexagon,\u00a0\u00a0",
+        "start": 172.0,
+        "duration": 4.4
+    }, {
+        "text": "and if you use some of the methods that we will\u00a0\ndevelop in a few minutes, you can compute that the\u00a0\u00a0",
+        "start": 176.4,
+        "duration": 4.48
+    }, {
+        "text": "area of that shadow is exactly the square root of\u00a0\nthree times the area of one of the square faces.\u00a0\u00a0",
+        "start": 180.88,
+        "duration": 4.88
+    }, {
+        "text": "But of course more often the actual shadow will\u00a0\nnot be so regular as a square or a hexagon, it's\u00a0\u00a0",
+        "start": 186.48,
+        "duration": 5.2
+    }, {
+        "text": "some harder-to-think-about shape based on some\u00a0\nharder-to-think-about orientation for this cube.",
+        "start": 191.68,
+        "duration": 4.48
+    }, {
+        "text": "Earlier, I casually threw out this phrase\u00a0\nof averaging over all possible orientations,\u00a0\u00a0",
+        "start": 197.12,
+        "duration": 4.8
+    }, {
+        "text": "but you could rightly ask what exactly is\u00a0\nthat supposed to mean. I think a lot of\u00a0\u00a0",
+        "start": 201.92,
+        "duration": 4.72
+    }, {
+        "text": "us have an intuitive feel for what we want\u00a0\nit to mean, at least in the sense of what\u00a0\u00a0",
+        "start": 206.64,
+        "duration": 4.0
+    }, {
+        "text": "experiment would you do to verify it. You might\u00a0\nimagine tossing this cube in the air like a die,\u00a0\u00a0",
+        "start": 210.64,
+        "duration": 5.6
+    }, {
+        "text": "freezing it at some arbitrary point, recording\u00a0\nthe area of the shadow from that position,\u00a0\u00a0",
+        "start": 216.24,
+        "duration": 5.2
+    }, {
+        "text": "and then repeating. If you do this many many\u00a0\ntimes over and over you can take the mean of\u00a0\u00a0",
+        "start": 221.44,
+        "duration": 6.24
+    }, {
+        "text": "your sample. The number that we want to get at,\u00a0\nthe true average here, should be whatever that\u00a0\u00a0",
+        "start": 227.68,
+        "duration": 5.12
+    }, {
+        "text": "experimental mean approaches as you do more\u00a0\nand more tosses approaching infinitely many.",
+        "start": 232.8,
+        "duration": 7.04
+    }, {
+        "text": "Even still, the sticklers among you could complain\u00a0\nthat doesn't really answer the question, because\u00a0\u00a0",
+        "start": 240.48,
+        "duration": 4.24
+    }, {
+        "text": "it leaves open the issue of how we're defining\u00a0\na \"random\" toss. The proper way to answer this,\u00a0\u00a0",
+        "start": 244.72,
+        "duration": 4.8
+    }, {
+        "text": "if we want it to be more formal, would be to first\u00a0\ndescribe the space of all possible orientations,\u00a0\u00a0",
+        "start": 249.52,
+        "duration": 5.6
+    }, {
+        "text": "which mathematicians have actually\u00a0\ngiven a fancy name. They call it SO(3),\u00a0\u00a0",
+        "start": 255.12,
+        "duration": 3.84
+    }, {
+        "text": "typically defined in terms of a certain family\u00a0\nof 3-by-3 matrices. And the question we want\u00a0\u00a0",
+        "start": 258.96,
+        "duration": 4.72
+    }, {
+        "text": "to answer is \"What probability distribution are we\u00a0\nputting to this entire space?\" It's only when such\u00a0\u00a0",
+        "start": 263.68,
+        "duration": 6.16
+    }, {
+        "text": "a probability distribution is well-defined that\u00a0\nwe can answer a question involving an average.\u00a0\u00a0",
+        "start": 269.84,
+        "duration": 4.64
+    }, {
+        "text": "If you are a stickler for that kind of thing, I\u00a0\nwant you to hold off on that question until the\u00a0\u00a0",
+        "start": 275.68,
+        "duration": 4.32
+    }, {
+        "text": "end of the video. You'll be surprised at how far\u00a0\nwe can get with the more heuristic experimental\u00a0\u00a0",
+        "start": 280.0,
+        "duration": 4.32
+    }, {
+        "text": "idea of just repeating a bunch of random tosses\u00a0\nwithout really defining the distribution.\u00a0\u00a0",
+        "start": 284.32,
+        "duration": 4.24
+    }, {
+        "text": "Once we see Alice and Bob's solutions,\u00a0\nit's actually very interesting to ask\u00a0\u00a0",
+        "start": 289.12,
+        "duration": 3.84
+    }, {
+        "text": "how exactly each one of them defined\u00a0\nthis distribution along their way.",
+        "start": 292.96,
+        "duration": 3.36
+    }, {
+        "text": "And remember, this is not meant to be\u00a0\na lesson about cube shadows, per se,\u00a0\u00a0",
+        "start": 297.84,
+        "duration": 3.76
+    }, {
+        "text": "but a lesson about problem-solving told through\u00a0\nthe lens of two different mindsets that we might\u00a0\u00a0",
+        "start": 301.6,
+        "duration": 4.48
+    }, {
+        "text": "bring to the puzzle. And as with any lesson\u00a0\non problem-solving, the goal here is not to\u00a0\u00a0",
+        "start": 306.08,
+        "duration": 4.56
+    }, {
+        "text": "get to the answer as quickly as we can, but\u00a0\nhopefully for you to feel like you found the\u00a0\u00a0",
+        "start": 310.64,
+        "duration": 4.24
+    }, {
+        "text": "answer yourself. So if ever there's a point\u00a0\nwhen you feel like you might have an idea,\u00a0\u00a0",
+        "start": 314.88,
+        "duration": 3.52
+    }, {
+        "text": "give yourself the freedom to\u00a0\npause and try to think it through.",
+        "start": 318.4,
+        "duration": 5.44
+    }, {
+        "text": "As a first step, and this is really independent\u00a0\nof any particular problem-solving styles,\u00a0\u00a0",
+        "start": 325.52,
+        "duration": 4.16
+    }, {
+        "text": "just anytime you find a hard question, a\u00a0\ngood thing that you can do is ask \"What's\u00a0\u00a0",
+        "start": 329.68,
+        "duration": 4.16
+    }, {
+        "text": "the simplest possible non-trivial variant\u00a0\nof the problem that you can try to solve?\"\u00a0\u00a0",
+        "start": 333.84,
+        "duration": 4.56
+    }, {
+        "text": "In our case what you might say is, okay, let's\u00a0\nforget about averaging over all the orientations.\u00a0\u00a0",
+        "start": 339.44,
+        "duration": 4.4
+    }, {
+        "text": "That's a tricky thing to think about. And let's\u00a0\neven forget about all the different faces of\u00a0\u00a0",
+        "start": 343.84,
+        "duration": 3.84
+    }, {
+        "text": "the cube, because they overlap and that's also\u00a0\ntricky to think about. Just for one particular\u00a0\u00a0",
+        "start": 347.68,
+        "duration": 4.8
+    }, {
+        "text": "face and one particular orientation,\u00a0\ncan we compute the area of this shadow?",
+        "start": 352.48,
+        "duration": 4.4
+    }, {
+        "text": "Once more, if you want to get your bearings with\u00a0\nsome special cases the easiest is when that face\u00a0\u00a0",
+        "start": 357.52,
+        "duration": 4.32
+    }, {
+        "text": "is parallel to the ground in which case the\u00a0\narea of the shadow is the same as the area\u00a0\u00a0",
+        "start": 361.84,
+        "duration": 4.16
+    }, {
+        "text": "of the face. And on the other hand if we were to\u00a0\ntilt that face 90-degrees, then its shadow will\u00a0\u00a0",
+        "start": 366.0,
+        "duration": 5.2
+    }, {
+        "text": "be a straight line and it has an area of zero. So\u00a0\nBob looks at this and he wants an actual formula\u00a0\u00a0",
+        "start": 371.2,
+        "duration": 5.28
+    }, {
+        "text": "for that shadow, and the way he might think about\u00a0\nit is to consider the normal vector perpendicular\u00a0\u00a0",
+        "start": 376.48,
+        "duration": 5.36
+    }, {
+        "text": "off of that face. What seems relevant is the angle\u00a0\nthat that normal vector makes with the vertical,\u00a0\u00a0",
+        "start": 381.84,
+        "duration": 5.12
+    }, {
+        "text": "with the direction where the light is\u00a0\ncoming from, which we might call theta.\u00a0\u00a0",
+        "start": 386.96,
+        "duration": 2.96
+    }, {
+        "text": "Now from the two special cases we just looked at,\u00a0\nwe know that when theta is equal to 0, the area of\u00a0\u00a0",
+        "start": 390.96,
+        "duration": 5.28
+    }, {
+        "text": "that shadow is the same as the area of the shape\u00a0\nitself, which is s squared if the square has side\u00a0\u00a0",
+        "start": 396.24,
+        "duration": 4.72
+    }, {
+        "text": "lengths s. And if theta is equal to 90 degrees,\u00a0\nthen the area of that shadow is zero. And it's\u00a0\u00a0",
+        "start": 400.96,
+        "duration": 5.6
+    }, {
+        "text": "probably not too hard to guess that trigonometry\u00a0\nwill be somehow relevant, so anyone comfortable\u00a0\u00a0",
+        "start": 406.56,
+        "duration": 4.24
+    }, {
+        "text": "with their trig functions could probably\u00a0\nhazard a guess as to what the right formula is.",
+        "start": 410.8,
+        "duration": 4.08
+    }, {
+        "text": "But Bob is more detail-oriented than that. He\u00a0\nwants to properly prove what that area should be\u00a0\u00a0",
+        "start": 414.88,
+        "duration": 4.72
+    }, {
+        "text": "rather than just making a guess based on the\u00a0\nendpoints. The way you might think about it\u00a0\u00a0",
+        "start": 419.6,
+        "duration": 4.0
+    }, {
+        "text": "could be something like this. If we consider\u00a0\nthe plane that passes through the vertical as\u00a0\u00a0",
+        "start": 423.6,
+        "duration": 4.4
+    }, {
+        "text": "well as our normal vector, and then we consider\u00a0\nall the different slices of our shape that are\u00a0\u00a0",
+        "start": 428.0,
+        "duration": 4.88
+    }, {
+        "text": "in that plane, or parallel to that plane, then\u00a0\nwe can focus our attention on a two-dimensional\u00a0\u00a0",
+        "start": 432.88,
+        "duration": 5.04
+    }, {
+        "text": "variant of the problem. If we just look at one\u00a0\nof those slices, who has a normal vector an\u00a0\u00a0",
+        "start": 437.92,
+        "duration": 4.64
+    }, {
+        "text": "angle theta away from the vertical, its shadow\u00a0\nmight look something like this. And if we draw\u00a0\u00a0",
+        "start": 442.56,
+        "duration": 5.28
+    }, {
+        "text": "a vertical line up to the left here, we have\u00a0\nourselves a right triangle. And from here we\u00a0\u00a0",
+        "start": 447.84,
+        "duration": 4.08
+    }, {
+        "text": "can do a little bit of angle chasing, where we\u00a0\nfollow around what that angle theta implies about\u00a0\u00a0",
+        "start": 451.92,
+        "duration": 4.48
+    }, {
+        "text": "the rest of the diagram. And this means the lower\u00a0\nright angle in this triangle is precisely theta.",
+        "start": 456.4,
+        "duration": 5.68
+    }, {
+        "text": "So when we want to understand the size of this\u00a0\nshadow in comparison to the original size of\u00a0\u00a0",
+        "start": 463.28,
+        "duration": 5.36
+    }, {
+        "text": "the piece, we can think about the cosine of that\u00a0\nangle theta, which remember is the adjacent over\u00a0\u00a0",
+        "start": 468.64,
+        "duration": 5.12
+    }, {
+        "text": "the hypotenuse. It's literally the ratio between\u00a0\nthe size of the shadow and the size of the slice.\u00a0\u00a0",
+        "start": 473.76,
+        "duration": 4.32
+    }, {
+        "text": "So the factor by which the slice gets squished\u00a0\ndown in this direction is exactly cosine of theta.\u00a0\u00a0",
+        "start": 478.8,
+        "duration": 5.44
+    }, {
+        "text": "And if we broaden our view to the entire square\u00a0\nall the slices in that direction get scaled by\u00a0\u00a0",
+        "start": 484.96,
+        "duration": 4.32
+    }, {
+        "text": "the same factor. But in the other direction,\u00a0\nthe one perpendicular to that slice, there is\u00a0\u00a0",
+        "start": 489.28,
+        "duration": 5.04
+    }, {
+        "text": "no stretching or squishing because the face is\u00a0\nnot at all tilted in that direction. So overall\u00a0\u00a0",
+        "start": 494.32,
+        "duration": 5.44
+    }, {
+        "text": "the two-dimensional shadow of our two-dimensional\u00a0\nface should also be scaled down by this factor of\u00a0\u00a0",
+        "start": 499.76,
+        "duration": 4.8
+    }, {
+        "text": "a cosine of theta. It lines up with what you\u00a0\nmight intuitively guess given the case where\u00a0\u00a0",
+        "start": 504.56,
+        "duration": 4.24
+    }, {
+        "text": "the angle is 0 degrees and the case where it's 90\u00a0\ndegrees, but it's reassuring to see why it's true",
+        "start": 508.8,
+        "duration": 4.4
+    }, {
+        "text": "Actually, as stated so far, this is not\u00a0\nquite correct. There is a small problem\u00a0\u00a0",
+        "start": 515.2,
+        "duration": 4.24
+    }, {
+        "text": "with the formula that we've written. In the\u00a0\ncase where theta is bigger than 90 degrees,\u00a0\u00a0",
+        "start": 519.44,
+        "duration": 4.56
+    }, {
+        "text": "the cosine would actually come out to be\u00a0\nnegative, but of course we don't want to\u00a0\u00a0",
+        "start": 524.0,
+        "duration": 3.52
+    }, {
+        "text": "consider the shadow to have negative area. At\u00a0\nleast not in a problem like this. So there's\u00a0\u00a0",
+        "start": 527.52,
+        "duration": 4.4
+    }, {
+        "text": "two different ways you could solve this. You\u00a0\ncould say we only ever want to consider the\u00a0\u00a0",
+        "start": 531.92,
+        "duration": 3.04
+    }, {
+        "text": "normal vector that is pointing up, that has a\u00a0\npositive z component. Or more simply we could\u00a0\u00a0",
+        "start": 534.96,
+        "duration": 5.04
+    }, {
+        "text": "say just take the absolute value of that\u00a0\ncosine, and that gives us a valid formula.",
+        "start": 540.0,
+        "duration": 4.56
+    }, {
+        "text": "So bob's happy because he has a precise\u00a0\nformula describing the area of the shadow,\u00a0\u00a0",
+        "start": 546.72,
+        "duration": 4.08
+    }, {
+        "text": "but Alice starts to think about it a little bit\u00a0\ndifferently. She says, okay we've got some shape,\u00a0\u00a0",
+        "start": 551.36,
+        "duration": 5.04
+    }, {
+        "text": "and then we apply a rotation that sort of situates\u00a0\nit into 3d space in some way, and then we apply\u00a0\u00a0",
+        "start": 556.4,
+        "duration": 5.12
+    }, {
+        "text": "a flat projection that shoves that back into\u00a0\ntwo-dimensional space. And what stands out to her\u00a0\u00a0",
+        "start": 561.52,
+        "duration": 4.48
+    }, {
+        "text": "is that both of these are linear transformations.\u00a0\nThat means that in principle you could describe\u00a0\u00a0",
+        "start": 566.0,
+        "duration": 4.88
+    }, {
+        "text": "each one of them with a matrix, and that the\u00a0\noverall transformation would look like the product\u00a0\u00a0",
+        "start": 570.88,
+        "duration": 4.32
+    }, {
+        "text": "of those two matrices. What Alice knows from\u00a0\none of her favorite subjects, linear algebra, is\u00a0\u00a0",
+        "start": 575.2,
+        "duration": 5.04
+    }, {
+        "text": "that if you take some shape and you consider its\u00a0\narea, then you apply some linear transformation,\u00a0\u00a0",
+        "start": 580.24,
+        "duration": 4.32
+    }, {
+        "text": "the area of that output looks like some constant\u00a0\ntimes the original area of the shape. More\u00a0\u00a0",
+        "start": 585.28,
+        "duration": 5.6
+    }, {
+        "text": "specifically we have a name for that constant,\u00a0\nit's called the determinant of the transformation.",
+        "start": 590.88,
+        "duration": 4.08
+    }, {
+        "text": "If you're not so comfortable with linear algebra,\u00a0\nwe could give a much more intuitive description\u00a0\u00a0",
+        "start": 596.48,
+        "duration": 3.68
+    }, {
+        "text": "and say if you uniformly stretch the original\u00a0\nshape in some direction, the output will also\u00a0\u00a0",
+        "start": 600.16,
+        "duration": 5.2
+    }, {
+        "text": "uniformly get stretched in some direction. So the\u00a0\narea of each of them should scale in proportion\u00a0\u00a0",
+        "start": 605.36,
+        "duration": 5.04
+    }, {
+        "text": "to each other. Now, in principle Alice could\u00a0\ncompute this determinant. But it's not really\u00a0\u00a0",
+        "start": 610.4,
+        "duration": 5.12
+    }, {
+        "text": "her style to do that, at least not to do so\u00a0\nimmediately. Instead the thing that she writes\u00a0\u00a0",
+        "start": 615.52,
+        "duration": 4.48
+    }, {
+        "text": "down is how this proportionality constant between\u00a0\nour original shape and its shadow does not depend\u00a0\u00a0",
+        "start": 620.0,
+        "duration": 5.92
+    }, {
+        "text": "on the original shape. We could be talking about\u00a0\nthe shadow of this cat outline, or anything else,\u00a0\u00a0",
+        "start": 625.92,
+        "duration": 5.04
+    }, {
+        "text": "and the size of it doesn't really matter, the\u00a0\nonly thing affecting that proportionality constant\u00a0\u00a0",
+        "start": 630.96,
+        "duration": 4.64
+    }, {
+        "text": "is what transformation we're applying, which in\u00a0\nthis context means we could write it down as some\u00a0\u00a0",
+        "start": 635.6,
+        "duration": 4.4
+    }, {
+        "text": "factor that depends on the rotation being applied\u00a0\nto the shape. In the back of our mind because of\u00a0\u00a0",
+        "start": 640.0,
+        "duration": 5.6
+    }, {
+        "text": "bob's calculation we know what that factor looks\u00a0\nlike, you know it's the absolute value of the\u00a0\u00a0",
+        "start": 645.6,
+        "duration": 4.08
+    }, {
+        "text": "cosine of the angle between the normal vector and\u00a0\nthe vertical. But Alice right now is just saying,\u00a0\u00a0",
+        "start": 649.68,
+        "duration": 4.64
+    }, {
+        "text": "\"yeah, yeah, I can think about that eventually\u00a0\nwhen I want to.\" But she knows we're about to\u00a0\u00a0",
+        "start": 654.32,
+        "duration": 3.68
+    }, {
+        "text": "average over all the different orientations\u00a0\nanyway, so she holds out some hope that any\u00a0\u00a0",
+        "start": 658.0,
+        "duration": 4.16
+    }, {
+        "text": "specific formula about a specific orientation\u00a0\nmight get washed away in that average.",
+        "start": 662.16,
+        "duration": 4.48
+    }, {
+        "text": "Now it's easy to look at this and say, \"Okay,\u00a0\nwell Alice isn't really doing anything then!\"\u00a0\u00a0",
+        "start": 667.92,
+        "duration": 3.68
+    }, {
+        "text": "Of course the area of the shadow is\u00a0\nproportional to the area of the original shape,\u00a0\u00a0",
+        "start": 671.6,
+        "duration": 4.08
+    }, {
+        "text": "they're both two-dimensional quantities, they\u00a0\nshould both scale like two-dimensional things.",
+        "start": 675.68,
+        "duration": 4.24
+    }, {
+        "text": "But keep in mind this would not at all be\u00a0\ntrue if we were dealing with the harder\u00a0\u00a0",
+        "start": 679.92,
+        "duration": 4.0
+    }, {
+        "text": "case that has a closer light source. In\u00a0\nthat case the projection is not linear.\u00a0\u00a0",
+        "start": 683.92,
+        "duration": 4.4
+    }, {
+        "text": "So for example if I rotate this cat so that its\u00a0\ntail ends up quite close to the light source,\u00a0\u00a0",
+        "start": 688.32,
+        "duration": 4.64
+    }, {
+        "text": "then if I stretch the original\u00a0\nshape uniformly in the x direction,\u00a0\u00a0",
+        "start": 692.96,
+        "duration": 3.36
+    }, {
+        "text": "say by a factor of 1.5, it might have a very\u00a0\ndisproportionate effect on the ultimate shadow,\u00a0\u00a0",
+        "start": 696.32,
+        "duration": 5.6
+    }, {
+        "text": "because the tail gets very disproportionately\u00a0\nblown up as it gets really close to the light.",
+        "start": 701.92,
+        "duration": 4.08
+    }, {
+        "text": "Again, Alice is keeping an eye out for what\u00a0\nproperties of the problem are actually relevant,\u00a0\u00a0",
+        "start": 706.64,
+        "duration": 4.16
+    }, {
+        "text": "because that helps her know how much she\u00a0\ncan generalize things. Does the fact that\u00a0\u00a0",
+        "start": 710.8,
+        "duration": 3.52
+    }, {
+        "text": "we're thinking about a square face and not\u00a0\nsome other shape matter? No not really. Does\u00a0\u00a0",
+        "start": 714.32,
+        "duration": 4.88
+    }, {
+        "text": "the fact that the transformation\u00a0\nis linear matter? Yes, absolutely.",
+        "start": 719.2,
+        "duration": 3.52
+    }, {
+        "text": "Alice can also apply a similar way of\u00a0\nthinking about the average shadow for\u00a0\u00a0",
+        "start": 726.56,
+        "duration": 4.08
+    }, {
+        "text": "any shape like this. Say we have some sequence\u00a0\nof rotations that we apply to our square face,\u00a0\u00a0",
+        "start": 730.64,
+        "duration": 5.68
+    }, {
+        "text": "and let's call them R1, R2, R3, and so on. Then\u00a0\nthe area of the shadow in each one of those cases\u00a0\u00a0",
+        "start": 736.32,
+        "duration": 6.32
+    }, {
+        "text": "looks like some factor times the area of the\u00a0\nsquare, and that factor depends on the rotation.\u00a0\u00a0",
+        "start": 742.64,
+        "duration": 4.56
+    }, {
+        "text": "So if we take an empirical average\u00a0\nfor that shadow across the sample of\u00a0\u00a0",
+        "start": 747.84,
+        "duration": 3.36
+    }, {
+        "text": "rotations we're looking at right now,\u00a0\nthe way it looks is to add up all of\u00a0\u00a0",
+        "start": 751.2,
+        "duration": 3.76
+    }, {
+        "text": "those shadow areas and then divide\u00a0\nby the total number that we have.",
+        "start": 754.96,
+        "duration": 3.2
+    }, {
+        "text": "Now, because of the linearity, this area of the\u00a0\noriginal square can cleanly factor out of all of\u00a0\u00a0",
+        "start": 758.72,
+        "duration": 6.24
+    }, {
+        "text": "that, and it ends up on the left. This isn't the\u00a0\nexact average that we're looking for, it's just\u00a0\u00a0",
+        "start": 764.96,
+        "duration": 4.56
+    }, {
+        "text": "an empirical mean of a sample of rotations. But\u00a0\nin principle what we're looking for is what this\u00a0\u00a0",
+        "start": 769.52,
+        "duration": 4.96
+    }, {
+        "text": "approaches as the size of our sample approaches\u00a0\ninfinity. And all the parts that depend on the\u00a0\u00a0",
+        "start": 774.48,
+        "duration": 4.96
+    }, {
+        "text": "size of the sample sit cleanly away from the area\u00a0\nitself. So whatever this approaches, in the limit\u00a0\u00a0",
+        "start": 779.44,
+        "duration": 5.68
+    }, {
+        "text": "it's just going to be some number. It might be\u00a0\na royal pain to compute, we're not sure about\u00a0\u00a0",
+        "start": 785.12,
+        "duration": 3.76
+    }, {
+        "text": "that yet, but the thing that Alice notes is that\u00a0\nit's independent of the size and the shape of the\u00a0\u00a0",
+        "start": 788.88,
+        "duration": 4.64
+    }, {
+        "text": "particular 2d thing that we're looking at. It's a\u00a0\nuniversal proportionality constant, and her hope\u00a0\u00a0",
+        "start": 793.52,
+        "duration": 5.76
+    }, {
+        "text": "is that that universality somehow lends itself\u00a0\nto a more elegant way to deduce what it must be.\u00a0\u00a0",
+        "start": 799.28,
+        "duration": 5.12
+    }, {
+        "text": "Now Bob would be eager to compute\u00a0\nthis constant here and now,\u00a0\u00a0",
+        "start": 806.0,
+        "duration": 3.44
+    }, {
+        "text": "and in a few minutes I'll show you how he\u00a0\ndoes it. But before that, I do want to stay\u00a0\u00a0",
+        "start": 809.44,
+        "duration": 3.68
+    }, {
+        "text": "in Alice's world for a little bit more, because\u00a0\nthis is where things start to really get fun.",
+        "start": 813.12,
+        "duration": 3.52
+    }, {
+        "text": "In her desire to understand the overall structure\u00a0\nof the question before diving into the details,\u00a0\u00a0",
+        "start": 820.16,
+        "duration": 4.96
+    }, {
+        "text": "she's curious now about how the area of the\u00a0\nshadow of the cube relates to the area of its\u00a0\u00a0",
+        "start": 825.12,
+        "duration": 4.96
+    }, {
+        "text": "individual faces. If we can say something about\u00a0\nthe average area of a particular face, does that\u00a0\u00a0",
+        "start": 830.08,
+        "duration": 5.2
+    }, {
+        "text": "tell us anything about the average area of the\u00a0\ncube as a whole? For example, a simple thing we\u00a0\u00a0",
+        "start": 835.28,
+        "duration": 4.96
+    }, {
+        "text": "could say is that that area is definitely less\u00a0\nthan the sum of the areas across all the faces,\u00a0\u00a0",
+        "start": 840.24,
+        "duration": 5.44
+    }, {
+        "text": "because there's a meaningful amount of overlap\u00a0\nbetween those shadows. But it's not entirely clear\u00a0\u00a0",
+        "start": 845.68,
+        "duration": 5.36
+    }, {
+        "text": "how to think about that overlap, because if we\u00a0\nfocus our attention just on two particular faces,\u00a0\u00a0",
+        "start": 851.04,
+        "duration": 4.96
+    }, {
+        "text": "in some orientations they don't overlap at\u00a0\nall, but in other orientations they do have\u00a0\u00a0",
+        "start": 856.0,
+        "duration": 4.16
+    }, {
+        "text": "some overlap. The specific shape and area of that\u00a0\noverlap seems a little bit tricky to think about,\u00a0\u00a0",
+        "start": 860.16,
+        "duration": 5.2
+    }, {
+        "text": "much less how on earth we would average that\u00a0\nacross all of the different orientations.",
+        "start": 865.36,
+        "duration": 4.48
+    }, {
+        "text": "But Alice has about three clever\u00a0\ninsights through this whole problem,\u00a0\u00a0",
+        "start": 870.4,
+        "duration": 3.68
+    }, {
+        "text": "and this is the first one of them. She says,\u00a0\nactually, if we think about the whole cube,\u00a0\u00a0",
+        "start": 874.08,
+        "duration": 4.88
+    }, {
+        "text": "not just a pair of faces, we can conclude that\u00a0\nthe area of the shadow for a given orientation\u00a0\u00a0",
+        "start": 878.96,
+        "duration": 5.36
+    }, {
+        "text": "is exactly one-half the sum of\u00a0\nthe areas of all of the faces.\u00a0\u00a0",
+        "start": 884.32,
+        "duration": 3.68
+    }, {
+        "text": "Intuitively, you can maybe guess that half of them\u00a0\nare bathed in the light, and half of them are not.\u00a0\u00a0",
+        "start": 889.28,
+        "duration": 4.48
+    }, {
+        "text": "But here's the way that she justifies it.\u00a0\nShe says for a particular ray of light\u00a0\u00a0",
+        "start": 893.76,
+        "duration": 4.4
+    }, {
+        "text": "they would go from the sky and eventually hit a\u00a0\npoint in the shadow, that ray passes through the\u00a0\u00a0",
+        "start": 898.16,
+        "duration": 4.88
+    }, {
+        "text": "cube at exactly two points. There's one moment\u00a0\nwhen it enters, and one moment when it exits,\u00a0\u00a0",
+        "start": 903.04,
+        "duration": 4.96
+    }, {
+        "text": "so every point in that shadow corresponds to\u00a0\nexactly two faces above it. Well, okay, that's not\u00a0\u00a0",
+        "start": 908.0,
+        "duration": 7.2
+    }, {
+        "text": "exactly true. If that beam of light happened to go\u00a0\nthrough the edge of one of the squares, there's a\u00a0\u00a0",
+        "start": 915.2,
+        "duration": 4.48
+    }, {
+        "text": "little bit of ambiguity on how many faces it's\u00a0\npassing. But those account for zero area inside\u00a0\u00a0",
+        "start": 919.68,
+        "duration": 5.04
+    }, {
+        "text": "the shadow, so we're safe to ignore them if the\u00a0\nthing we're trying to do is compute the area.",
+        "start": 924.72,
+        "duration": 4.16
+    }, {
+        "text": "If Alice is pressed and she needs to justify\u00a0\nwhy exactly this is true, which is important\u00a0\u00a0",
+        "start": 931.12,
+        "duration": 4.72
+    }, {
+        "text": "for understanding how the problem might\u00a0\ngeneralize, she can appeal to the idea of\u00a0\u00a0",
+        "start": 935.84,
+        "duration": 4.08
+    }, {
+        "text": "convexity. Convexity is one of those properties\u00a0\nwhere a lot of us have an intuitive sense for\u00a0\u00a0",
+        "start": 939.92,
+        "duration": 4.64
+    }, {
+        "text": "what it should mean. You know, it's shapes\u00a0\nthat just bulge out, they never dent inward.\u00a0\u00a0",
+        "start": 944.56,
+        "duration": 4.32
+    }, {
+        "text": "But mathematicians have a pretty clever way of\u00a0\nformalizing it that's helpful for actual proofs",
+        "start": 948.88,
+        "duration": 4.08
+    }, {
+        "text": "They say that a set is \"convex\" if the line\u00a0\nthat connects any two points inside that set\u00a0\u00a0",
+        "start": 953.52,
+        "duration": 5.6
+    }, {
+        "text": "is entirely contained within the set itself. So a\u00a0\nsquare is convex because no matter where you put\u00a0\u00a0",
+        "start": 959.12,
+        "duration": 5.92
+    }, {
+        "text": "two points inside that square, the line connecting\u00a0\nthem is entirely contained inside the square.",
+        "start": 965.04,
+        "duration": 4.96
+    }, {
+        "text": "But something like the symbol pi is not\u00a0\nconvex. I can easily find two different points\u00a0\u00a0",
+        "start": 970.0,
+        "duration": 4.64
+    }, {
+        "text": "so that the line connecting them has to peak\u00a0\noutside of the set itself. None of the letters\u00a0\u00a0",
+        "start": 974.64,
+        "duration": 4.96
+    }, {
+        "text": "in the word \"convex\" are themselves convex. You\u00a0\ncan find two points so that the line connecting\u00a0\u00a0",
+        "start": 979.6,
+        "duration": 5.44
+    }, {
+        "text": "them has to pass outside of the set. It's a really\u00a0\nclever way to formalize this idea of a shape that\u00a0\u00a0",
+        "start": 985.04,
+        "duration": 5.2
+    }, {
+        "text": "only bulges out, because any time that it dents\u00a0\ninward, you can find these counter-example lines",
+        "start": 990.24,
+        "duration": 5.52
+    }, {
+        "text": "For our cube, because it's convex, between the\u00a0\nfirst point of entry and the last point of exit\u00a0\u00a0",
+        "start": 995.76,
+        "duration": 5.44
+    }, {
+        "text": "it has to stay entirely inside the cube, by the\u00a0\ndefinition of convexity. But if we were dealing\u00a0\u00a0",
+        "start": 1001.2,
+        "duration": 5.04
+    }, {
+        "text": "with some other non-convex shape, like a donut,\u00a0\nyou could find a ray of light that enters then\u00a0\u00a0",
+        "start": 1006.24,
+        "duration": 4.96
+    }, {
+        "text": "exits then enters and exits again. So you wouldn't\u00a0\nhave a clean two-to-one cover from the shadows.\u00a0\u00a0",
+        "start": 1011.2,
+        "duration": 5.2
+    }, {
+        "text": "The shadows of all of its different parts, if\u00a0\nyou were to cover this in a bunch of faces,\u00a0\u00a0",
+        "start": 1016.4,
+        "duration": 4.24
+    }, {
+        "text": "would not be precisely two times\u00a0\nthe area of the shadow itself.",
+        "start": 1020.64,
+        "duration": 3.2
+    }, {
+        "text": "So that's the first key insight, the face\u00a0\nshadows double-cover the cube shadow.\u00a0\u00a0",
+        "start": 1024.48,
+        "duration": 4.08
+    }, {
+        "text": "And the next one is a little bit more\u00a0\nsymbolic, so let's start things off by\u00a0\u00a0",
+        "start": 1028.56,
+        "duration": 3.28
+    }, {
+        "text": "abbreviating our notation a little to make room on\u00a0\nthe screen. Instead of writing Area(Shadow(Cube)),\u00a0\u00a0",
+        "start": 1031.84,
+        "duration": 4.48
+    }, {
+        "text": "I'm just going to write S(Cube). And similarly\u00a0\ninstead of Area(Shadow(a particular face)), I'm\u00a0\u00a0",
+        "start": 1037.76,
+        "duration": 5.76
+    }, {
+        "text": "just going to write S(F_j), where that subscript\u00a0\nj indicates which face I'm talking about.",
+        "start": 1043.52,
+        "duration": 4.72
+    }, {
+        "text": "But of course, we should really be talking about\u00a0\nthe shadow of a particular rotation applied to the\u00a0\u00a0",
+        "start": 1049.04,
+        "duration": 4.16
+    }, {
+        "text": "cube, so I might write this as S of some rotation\u00a0\napplied to the cube. And likewise on the right,\u00a0\u00a0",
+        "start": 1053.2,
+        "duration": 5.28
+    }, {
+        "text": "it's the area of the shadow of that same\u00a0\nrotation applied to a given one of the faces.",
+        "start": 1058.48,
+        "duration": 5.12
+    }, {
+        "text": "With the more compact notation at hand, let's\u00a0\nthink about the average of this shadow area across\u00a0\u00a0",
+        "start": 1063.6,
+        "duration": 5.6
+    }, {
+        "text": "many different rotations, some sample of R1, R2,\u00a0\nR3, and so on. Again, that average just involves\u00a0\u00a0",
+        "start": 1069.2,
+        "duration": 6.64
+    }, {
+        "text": "adding up all of those shadow areas and then\u00a0\ndividing them by n, and in principle if we were\u00a0\u00a0",
+        "start": 1075.84,
+        "duration": 5.12
+    }, {
+        "text": "to look at this for larger and larger samples,\u00a0\nletting n approach infinity, that would give us\u00a0\u00a0",
+        "start": 1080.96,
+        "duration": 4.4
+    }, {
+        "text": "the average area of the shadow of the cube. Some\u00a0\nof you might be thinking, \"yes, we know this,\u00a0\u00a0",
+        "start": 1085.36,
+        "duration": 4.56
+    }, {
+        "text": "you've said this already.\" But it's beneficial to\u00a0\nwrite it out so that we can understand why it is\u00a0\u00a0",
+        "start": 1089.92,
+        "duration": 4.32
+    }, {
+        "text": "that expressing the shadow area for a particular\u00a0\nrotation of the cube as a sum across all of its\u00a0\u00a0",
+        "start": 1094.24,
+        "duration": 5.04
+    }, {
+        "text": "faces, or one half times that sum at least...why\u00a0\nis that beneficial? What is that going to do for\u00a0\u00a0",
+        "start": 1099.28,
+        "duration": 5.12
+    }, {
+        "text": "us? Well, let's just write it out, where for\u00a0\neach one of these rotations of the cube we\u00a0\u00a0",
+        "start": 1104.4,
+        "duration": 4.4
+    }, {
+        "text": "could break down that shadow as a sum across that\u00a0\nsame rotation applied across all of the faces. And\u00a0\u00a0",
+        "start": 1108.8,
+        "duration": 5.68
+    }, {
+        "text": "when it's written as a grid like this, we can get\u00a0\nto Alice's second insight, which is to shift the\u00a0\u00a0",
+        "start": 1114.48,
+        "duration": 4.48
+    }, {
+        "text": "way that we're thinking about the sum from going\u00a0\nrow-by-row to instead going column-by-column.",
+        "start": 1118.96,
+        "duration": 4.64
+    }, {
+        "text": "For example if we focused our attention just\u00a0\non the first column, what it's telling us is\u00a0\u00a0",
+        "start": 1125.92,
+        "duration": 4.24
+    }, {
+        "text": "to add up the area of the shadow of the first\u00a0\nface across many different orientations. So if\u00a0\u00a0",
+        "start": 1130.16,
+        "duration": 5.52
+    }, {
+        "text": "we were to take that sum and divide it by the\u00a0\nsize of our sample, that gives us an empirical\u00a0\u00a0",
+        "start": 1135.68,
+        "duration": 4.64
+    }, {
+        "text": "average for the area of the shadow of this\u00a0\nface. So if we take larger and larger samples,\u00a0\u00a0",
+        "start": 1140.32,
+        "duration": 5.04
+    }, {
+        "text": "letting that size go to infinity, this will\u00a0\napproach the average shadow area for a square.\u00a0\u00a0",
+        "start": 1145.36,
+        "duration": 4.48
+    }, {
+        "text": "Likewise, the second column\u00a0\ncan be thought of as telling us\u00a0\u00a0",
+        "start": 1151.84,
+        "duration": 3.12
+    }, {
+        "text": "the average area for the second face of the\u00a0\ncube, which should of course be the same number.\u00a0\u00a0",
+        "start": 1154.96,
+        "duration": 5.12
+    }, {
+        "text": "And same deal for any other column, it's telling\u00a0\nus the average area for a particular face.",
+        "start": 1160.08,
+        "duration": 4.64
+    }, {
+        "text": "So that gives us a very different way\u00a0\nof thinking about our whole expression.\u00a0\u00a0",
+        "start": 1164.72,
+        "duration": 3.6
+    }, {
+        "text": "Instead of saying add up the areas of the\u00a0\ncubes at all the different orientations,\u00a0\u00a0",
+        "start": 1168.32,
+        "duration": 4.0
+    }, {
+        "text": "we could say just add up the average\u00a0\nshadows for the six different faces\u00a0\u00a0",
+        "start": 1172.32,
+        "duration": 3.68
+    }, {
+        "text": "and multiply the total by one half. The term\u00a0\non the left here is thinking about adding up\u00a0\u00a0",
+        "start": 1176.0,
+        "duration": 4.08
+    }, {
+        "text": "rows first, and the term on the right is\u00a0\nthinking about adding up columns first.",
+        "start": 1180.08,
+        "duration": 3.52
+    }, {
+        "text": "In short, the average of\u00a0\nthe sum of the face shadows\u00a0\u00a0",
+        "start": 1184.8,
+        "duration": 3.04
+    }, {
+        "text": "is the same as the sum of the average of the\u00a0\nface shadows. Maybe that swap seems simple,\u00a0\u00a0",
+        "start": 1187.84,
+        "duration": 5.28
+    }, {
+        "text": "maybe it doesn't, but I can tell you\u00a0\nthat there is actually a little bit\u00a0\u00a0",
+        "start": 1193.12,
+        "duration": 2.88
+    }, {
+        "text": "more than meets the eye to the step that\u00a0\nwe just took. But we'll get to that later.",
+        "start": 1196.0,
+        "duration": 3.6
+    }, {
+        "text": "And remember, we know that the\u00a0\naverage area for a particular face\u00a0\u00a0",
+        "start": 1200.56,
+        "duration": 3.28
+    }, {
+        "text": "looks like some universal proportionality\u00a0\nconstant times the area of that face,\u00a0\u00a0",
+        "start": 1203.84,
+        "duration": 4.64
+    }, {
+        "text": "so if we're adding this up across all the faces\u00a0\nof the cube, we could think of this as equaling\u00a0\u00a0",
+        "start": 1208.48,
+        "duration": 4.32
+    }, {
+        "text": "some constant times the surface area of\u00a0\nthe cube. And that's pretty interesting,\u00a0\u00a0",
+        "start": 1212.8,
+        "duration": 4.0
+    }, {
+        "text": "the average area for the shadow of this cube is\u00a0\ngoing to be proportional to its surface area.\u00a0\u00a0",
+        "start": 1216.8,
+        "duration": 4.56
+    }, {
+        "text": "But at the same time, you might complain, \"Well\u00a0\nAlice is just pushing around a bunch of symbols\u00a0\u00a0",
+        "start": 1222.48,
+        "duration": 4.24
+    }, {
+        "text": "here, because none of this matters if we don't\u00a0\nknow what that proportionality constant is!\"",
+        "start": 1226.72,
+        "duration": 4.24
+    }, {
+        "text": "I mean it almost seems obvious. Like, of course\u00a0\nthe average shadow area should be proportional to\u00a0\u00a0",
+        "start": 1231.52,
+        "duration": 5.2
+    }, {
+        "text": "the surface area, they're both two-dimensional\u00a0\nquantities, so they should scale in lock step\u00a0\u00a0",
+        "start": 1236.72,
+        "duration": 4.64
+    }, {
+        "text": "with each other. It's not obvious. After all,\u00a0\nfor a closer light source it simply wouldn't\u00a0\u00a0",
+        "start": 1241.36,
+        "duration": 5.28
+    }, {
+        "text": "be true. And also this business where we added\u00a0\nup the grid column-by-column versus row-by-row\u00a0\u00a0",
+        "start": 1246.64,
+        "duration": 5.6
+    }, {
+        "text": "is a little more nuanced than it might\u00a0\nlook at first, there's a subtle hidden\u00a0\u00a0",
+        "start": 1252.24,
+        "duration": 4.08
+    }, {
+        "text": "assumption underlying all of this which carries\u00a0\na special significance when we choose to revisit\u00a0\u00a0",
+        "start": 1256.32,
+        "duration": 4.48
+    }, {
+        "text": "the question of what probability distribution is\u00a0\nbeing taken across the space of all orientations.",
+        "start": 1260.8,
+        "duration": 5.36
+    }, {
+        "text": "But more than anything, the reason that it's\u00a0\nnot obvious is that the significance of this\u00a0\u00a0",
+        "start": 1267.44,
+        "duration": 4.16
+    }, {
+        "text": "result right here is not merely that these two\u00a0\nvalues are proportional. It's that an analogous\u00a0\u00a0",
+        "start": 1271.6,
+        "duration": 5.44
+    }, {
+        "text": "fact will hold true for any convex solids, and\u00a0\ncrucially, the actual content of what Alice\u00a0\u00a0",
+        "start": 1277.04,
+        "duration": 5.84
+    }, {
+        "text": "has built up so far is that it'll be the same\u00a0\nproportionality constant across all of them.\u00a0\u00a0",
+        "start": 1282.88,
+        "duration": 4.88
+    }, {
+        "text": "Now if you really mull over that, some of you\u00a0\nmay be able to predict the way that Alice is\u00a0\u00a0",
+        "start": 1289.04,
+        "duration": 3.6
+    }, {
+        "text": "able to finish things off from here. It's really\u00a0\ndelightful, it's honestly my main reason for\u00a0\u00a0",
+        "start": 1292.64,
+        "duration": 4.24
+    }, {
+        "text": "covering this topic. But before we get into it,\u00a0\nI think it's easy to under-appreciate her result\u00a0\u00a0",
+        "start": 1296.88,
+        "duration": 5.36
+    }, {
+        "text": "unless we dig into the details of\u00a0\nwhat it is that she manages to avoid.",
+        "start": 1302.24,
+        "duration": 3.76
+    }, {
+        "text": "So let's take a moment to turn our\u00a0\nattention back into Bob's world\u00a0\u00a0",
+        "start": 1306.56,
+        "duration": 3.36
+    }, {
+        "text": "because while Alice has been doing all of this,\u00a0\nhe's been busy doing some computations. In fact,\u00a0\u00a0",
+        "start": 1309.92,
+        "duration": 5.44
+    }, {
+        "text": "what he's been working on is finding exactly\u00a0\nwhat Alice has yet to figure out, which is how to\u00a0\u00a0",
+        "start": 1315.36,
+        "duration": 4.88
+    }, {
+        "text": "take the formula that he found for the area of a\u00a0\nsquare's shadow, and taking the natural next step\u00a0\u00a0",
+        "start": 1320.24,
+        "duration": 4.64
+    }, {
+        "text": "of trying to find the average of that square's\u00a0\nshadow, averaged over all possible orientations.",
+        "start": 1324.88,
+        "duration": 6.96
+    }, {
+        "text": "The way Bob starts, if he's thinking about all the\u00a0\ndifferent possible orientations for this square,\u00a0\u00a0",
+        "start": 1334.48,
+        "duration": 4.56
+    }, {
+        "text": "is to ask what are all the different normal\u00a0\nvectors that that square can have in all\u00a0\u00a0",
+        "start": 1339.04,
+        "duration": 4.08
+    }, {
+        "text": "these orientations. Because everything about\u00a0\nits shadow comes down to that normal vector.\u00a0\u00a0",
+        "start": 1343.12,
+        "duration": 4.48
+    }, {
+        "text": "It's not too hard to see that all those possible\u00a0\nnormal vectors trace out the surface of a sphere.\u00a0\u00a0",
+        "start": 1347.6,
+        "duration": 4.88
+    }, {
+        "text": "If we assume it's a unit normal vector, it's a\u00a0\nsphere with radius 1. And furthermore, Bob figures\u00a0\u00a0",
+        "start": 1352.48,
+        "duration": 4.96
+    }, {
+        "text": "that each point of the sphere should be just as\u00a0\nlikely to occur as any other, our probabilities\u00a0\u00a0",
+        "start": 1357.44,
+        "duration": 5.12
+    }, {
+        "text": "should be uniform in that way. There's no\u00a0\nreason to prefer one direction over another.\u00a0\u00a0",
+        "start": 1362.56,
+        "duration": 3.68
+    }, {
+        "text": "But in the context of continuous probabilities\u00a0\nit's not very helpful to talk about the likelihood\u00a0\u00a0",
+        "start": 1366.88,
+        "duration": 4.32
+    }, {
+        "text": "of a particular individual point, because in the\u00a0\nuncountable infinity of points on the sphere,\u00a0\u00a0",
+        "start": 1371.2,
+        "duration": 4.48
+    }, {
+        "text": "that would be zero and unhelpful. So instead\u00a0\nthe more precise way to phrase this uniformity\u00a0\u00a0",
+        "start": 1375.68,
+        "duration": 5.52
+    }, {
+        "text": "would be to say the probability that our normal\u00a0\nvector lands in any given patch of area on the\u00a0\u00a0",
+        "start": 1381.2,
+        "duration": 4.64
+    }, {
+        "text": "sphere should be proportional to that area itself.\u00a0\nMore specifically it should equal the area of that\u00a0\u00a0",
+        "start": 1385.84,
+        "duration": 6.0
+    }, {
+        "text": "little patch divided by the total surface area\u00a0\nof the sphere. If that's true no matter what\u00a0\u00a0",
+        "start": 1391.84,
+        "duration": 4.96
+    }, {
+        "text": "patch of area we're considering, that's what we\u00a0\nmean by a uniform distribution on the sphere.",
+        "start": 1396.8,
+        "duration": 4.24
+    }, {
+        "text": "Now to be clear, points on the sphere are not\u00a0\nthe same thing as orientations in 3d space,\u00a0\u00a0",
+        "start": 1401.68,
+        "duration": 4.64
+    }, {
+        "text": "because even if you know what normal\u00a0\nvector the square is going to have\u00a0\u00a0",
+        "start": 1406.32,
+        "duration": 3.52
+    }, {
+        "text": "that leaves us with another degree of freedom. The\u00a0\nsquare could be rotated about that normal vector.\u00a0\u00a0",
+        "start": 1409.84,
+        "duration": 4.24
+    }, {
+        "text": "but Bob doesn't actually have to care about that\u00a0\nextra degree of freedom, because in all of those\u00a0\u00a0",
+        "start": 1414.72,
+        "duration": 4.48
+    }, {
+        "text": "cases the area of the shadow is the same. It's\u00a0\nonly dependent on the cosine of the angle between\u00a0\u00a0",
+        "start": 1419.2,
+        "duration": 5.76
+    }, {
+        "text": "that normal vector and the vertical, which is\u00a0\nkind of neat. All those shadows are genuinely\u00a0\u00a0",
+        "start": 1424.96,
+        "duration": 4.4
+    }, {
+        "text": "different shapes, they're not the same, but\u00a0\nthe area of each of them will be the same.",
+        "start": 1429.36,
+        "duration": 4.08
+    }, {
+        "text": "What this means is that when Bob wants\u00a0\nthis average shadow area over all possible\u00a0\u00a0",
+        "start": 1434.88,
+        "duration": 3.68
+    }, {
+        "text": "orientations, all he really needs to know is the\u00a0\naverage value of this absolute value of cosine of\u00a0\u00a0",
+        "start": 1438.56,
+        "duration": 5.12
+    }, {
+        "text": "theta for all different possible normal vectors,\u00a0\nall different possible points on the sphere.",
+        "start": 1443.68,
+        "duration": 5.2
+    }, {
+        "text": "So how do you compute an average like this?\u00a0\nWell if we lived in some kind of discrete,\u00a0\u00a0",
+        "start": 1448.88,
+        "duration": 5.04
+    }, {
+        "text": "pixelated world, where there's only a finite\u00a0\nnumber of possible angles theta that that\u00a0\u00a0",
+        "start": 1453.92,
+        "duration": 4.4
+    }, {
+        "text": "normal vector could have, the average would be\u00a0\npretty straightforward. What you do is find the\u00a0\u00a0",
+        "start": 1458.32,
+        "duration": 4.8
+    }, {
+        "text": "probability of landing on any particular value of\u00a0\ntheta, which will tell us something like how much\u00a0\u00a0",
+        "start": 1463.12,
+        "duration": 4.72
+    }, {
+        "text": "of the sphere do normal vectors with that angle\u00a0\nmake up, and then you multiply it by the thing we\u00a0\u00a0",
+        "start": 1467.84,
+        "duration": 4.64
+    }, {
+        "text": "want to take the average of, this formula for the\u00a0\narea of the shadow. And then you would add that up\u00a0\u00a0",
+        "start": 1472.48,
+        "duration": 5.44
+    }, {
+        "text": "over all of the different possible values of theta\u00a0\nranging from 0 up to 180 degrees, or pi radians.",
+        "start": 1477.92,
+        "duration": 5.92
+    }, {
+        "text": "But of course in reality there is a\u00a0\ncontinuum of possible values of theta\u00a0\u00a0",
+        "start": 1484.8,
+        "duration": 4.08
+    }, {
+        "text": "this uncountable infinity, and the probability of\u00a0\nlanding on any specific particular value of theta\u00a0\u00a0",
+        "start": 1488.88,
+        "duration": 6.0
+    }, {
+        "text": "will actually be zero, and so a sum like this\u00a0\nunfortunately doesn't really make any sense.\u00a0\u00a0",
+        "start": 1494.88,
+        "duration": 5.36
+    }, {
+        "text": "Or if it does make sense, adding up infinitely\u00a0\nmany zeros should just give us a zero.",
+        "start": 1500.24,
+        "duration": 3.84
+    }, {
+        "text": "The short answer for what we do instead is that\u00a0\nwe compute an integral. And I'll level with you,\u00a0\u00a0",
+        "start": 1505.6,
+        "duration": 4.8
+    }, {
+        "text": "the hard part here is I'm not entirely sure what\u00a0\nbackground I should be assuming from those of\u00a0\u00a0",
+        "start": 1510.4,
+        "duration": 3.68
+    }, {
+        "text": "you watching right now. Maybe it's the case\u00a0\nthat you're quite comfortable with calculus,\u00a0\u00a0",
+        "start": 1514.08,
+        "duration": 3.76
+    }, {
+        "text": "and you don't need me to belabor the point here.\u00a0\nMaybe it's the case that you're not familiar with\u00a0\u00a0",
+        "start": 1517.84,
+        "duration": 3.92
+    }, {
+        "text": "calculus, and I shouldn't just be throwing down\u00a0\nintegrals like that. Or maybe you...you know,\u00a0\u00a0",
+        "start": 1521.76,
+        "duration": 4.08
+    }, {
+        "text": "you took a calculus class a while ago\u00a0\nbut you need a little bit of a refresher.",
+        "start": 1525.84,
+        "duration": 3.92
+    }, {
+        "text": "I'm gonna go with the option of setting\u00a0\nthis up as if it's a calculus lesson,\u00a0\u00a0",
+        "start": 1529.76,
+        "duration": 3.6
+    }, {
+        "text": "because to be honest even when\u00a0\nyou are quite comfortable with\u00a0\u00a0",
+        "start": 1533.36,
+        "duration": 2.24
+    }, {
+        "text": "integrals setting them up can be\u00a0\nkind of an error-prone process,\u00a0\u00a0",
+        "start": 1535.6,
+        "duration": 2.96
+    }, {
+        "text": "and calling back to the underlying definition is a\u00a0\ngood way to sort of check yourself in the process.",
+        "start": 1538.56,
+        "duration": 4.32
+    }, {
+        "text": "If we lived in a time before calculus\u00a0\nexisted and integrals weren't a thing\u00a0\u00a0",
+        "start": 1543.92,
+        "duration": 3.44
+    }, {
+        "text": "and we wanted to approximate an answer to this\u00a0\nquestion, one way we could go about it is to take\u00a0\u00a0",
+        "start": 1547.36,
+        "duration": 4.72
+    }, {
+        "text": "a sample of values for theta that ranges\u00a0\nfrom 0 up to 180 degrees. We might think\u00a0\u00a0",
+        "start": 1552.08,
+        "duration": 5.36
+    }, {
+        "text": "of them as evenly spaced, with some sort of\u00a0\ndifference between each one, some delta-theta.",
+        "start": 1557.44,
+        "duration": 4.4
+    }, {
+        "text": "And it's still the case that it would be unhelpful\u00a0\nto ask about the probability of a particular value\u00a0\u00a0",
+        "start": 1562.4,
+        "duration": 4.4
+    }, {
+        "text": "of theta occurring, even if it's one in our\u00a0\nsample. That probability would still be zero,\u00a0\u00a0",
+        "start": 1566.8,
+        "duration": 4.4
+    }, {
+        "text": "and it would be unhelpful. But what is helpful\u00a0\nto ask is the probability of falling between two\u00a0\u00a0",
+        "start": 1571.2,
+        "duration": 5.28
+    }, {
+        "text": "different values from our sample, in this little\u00a0\nband of latitude with a width of delta theta.",
+        "start": 1576.48,
+        "duration": 5.04
+    }, {
+        "text": "Based on our assumption that the distribution\u00a0\nalong the sphere should be uniform,\u00a0\u00a0",
+        "start": 1582.4,
+        "duration": 3.84
+    }, {
+        "text": "that probability comes down to knowing the area\u00a0\nof this band. More specifically, the chances\u00a0\u00a0",
+        "start": 1586.24,
+        "duration": 4.72
+    }, {
+        "text": "that a randomly chosen vector lands in that band\u00a0\nshould be that area divided by the total surface\u00a0\u00a0",
+        "start": 1590.96,
+        "duration": 4.88
+    }, {
+        "text": "area of the sphere. To figure out that area,\u00a0\nlet's first think of the radius of that band,\u00a0\u00a0",
+        "start": 1595.84,
+        "duration": 4.88
+    }, {
+        "text": "which if the radius of our sphere is 1 is\u00a0\ndefinitely going to be smaller than 1. And\u00a0\u00a0",
+        "start": 1600.72,
+        "duration": 5.12
+    }, {
+        "text": "in fact, if we draw the appropriate little right\u00a0\ntriangle here, you can see that that little radius\u00a0\u00a0",
+        "start": 1605.84,
+        "duration": 4.48
+    }, {
+        "text": "let's just say at the top of the band should be\u00a0\nthe sine of our angle, the sine of theta. This\u00a0\u00a0",
+        "start": 1610.32,
+        "duration": 5.2
+    }, {
+        "text": "means that the circumference of the band should\u00a0\nbe 2 pi times the sine of that angle. And then\u00a0\u00a0",
+        "start": 1615.52,
+        "duration": 5.12
+    }, {
+        "text": "the area of the band should be that circumference\u00a0\ntimes its thickness, that little delta theta. Or\u00a0\u00a0",
+        "start": 1620.64,
+        "duration": 5.28
+    }, {
+        "text": "rather, the area of our band is approximately this\u00a0\nquantity. What's important is that for a finer\u00a0\u00a0",
+        "start": 1625.92,
+        "duration": 5.12
+    }, {
+        "text": "sample of many more values of theta the accuracy\u00a0\nof that approximation would get better and better.",
+        "start": 1631.04,
+        "duration": 5.12
+    }, {
+        "text": "Now remember, the reason we wanted this area is\u00a0\nto know the probability of falling into that band,\u00a0\u00a0",
+        "start": 1637.28,
+        "duration": 4.96
+    }, {
+        "text": "which is this area divided by the surface area\u00a0\nof the sphere, which we know to be 4 pi times\u00a0\u00a0",
+        "start": 1642.24,
+        "duration": 4.8
+    }, {
+        "text": "its radius squared. That's a value that you could\u00a0\nalso compute with an integral similar to the one\u00a0\u00a0",
+        "start": 1647.04,
+        "duration": 4.8
+    }, {
+        "text": "that we're setting up now, but for now we can take\u00a0\nit as a given, as a standard well-known formula.",
+        "start": 1651.84,
+        "duration": 4.16
+    }, {
+        "text": "And this probability itself is just a stepping\u00a0\nstone in the direction of what we actually want,\u00a0\u00a0",
+        "start": 1656.72,
+        "duration": 4.16
+    }, {
+        "text": "which is the average area\u00a0\nfor the shadow of a square.\u00a0\u00a0",
+        "start": 1660.88,
+        "duration": 2.4
+    }, {
+        "text": "To get that we'll multiply this probability times\u00a0\nthe corresponding shadow area, which is this\u00a0\u00a0",
+        "start": 1664.08,
+        "duration": 5.12
+    }, {
+        "text": "absolute value of cosine theta expression\u00a0\nwe've seen many times up to this point.\u00a0\u00a0",
+        "start": 1669.2,
+        "duration": 3.68
+    }, {
+        "text": "And our estimate for this average would\u00a0\nnow come down to adding up this expression\u00a0\u00a0",
+        "start": 1673.52,
+        "duration": 4.08
+    }, {
+        "text": "across all of the different bands, all of the\u00a0\ndifferent samples of theta that we've taken.",
+        "start": 1677.6,
+        "duration": 4.24
+    }, {
+        "text": "This right here, by the way, is when\u00a0\nBob is just totally in his element.\u00a0\u00a0",
+        "start": 1683.36,
+        "duration": 2.96
+    }, {
+        "text": "We've got a lot of exact formulas\u00a0\ndescribing something very concrete,\u00a0\u00a0",
+        "start": 1686.32,
+        "duration": 3.36
+    }, {
+        "text": "actually digging in on our way to a real answer.\u00a0\nAnd again, if it feels like a lot of detail,\u00a0\u00a0",
+        "start": 1689.68,
+        "duration": 5.12
+    }, {
+        "text": "I want you to appreciate that fact so that you\u00a0\ncan appreciate just how magical it is when Alice\u00a0\u00a0",
+        "start": 1694.8,
+        "duration": 4.72
+    }, {
+        "text": "manages to somehow avoid all of this. Anyway,\u00a0\nlooking back at our expression, let's clean\u00a0\u00a0",
+        "start": 1699.52,
+        "duration": 5.28
+    }, {
+        "text": "things up a little bit, like factoring out all\u00a0\nof the terms that don't depend on theta itself.\u00a0\u00a0",
+        "start": 1704.8,
+        "duration": 4.08
+    }, {
+        "text": "And we can simplify that 2 pi divided by 4 pi to\u00a0\nsimply be one half. And to make it a little more\u00a0\u00a0",
+        "start": 1709.44,
+        "duration": 5.76
+    }, {
+        "text": "analogous to calculus with integrals, let me\u00a0\njust swap the main terms inside the sum here.",
+        "start": 1715.2,
+        "duration": 4.48
+    }, {
+        "text": "What we now have, this sum that's going\u00a0\nto approximate the answer to our question,\u00a0\u00a0",
+        "start": 1719.68,
+        "duration": 4.24
+    }, {
+        "text": "is almost what an integral is. Instead of writing\u00a0\nthe sigma for sum, we write the integral symbol,\u00a0\u00a0",
+        "start": 1723.92,
+        "duration": 5.68
+    }, {
+        "text": "this kind of elongated Leibnizian S showing us\u00a0\nthat we're going from zero to pi. And instead\u00a0\u00a0",
+        "start": 1729.6,
+        "duration": 5.28
+    }, {
+        "text": "of describing the step size as delta theta, a\u00a0\nconcrete finite amount, we instead describe it as\u00a0\u00a0",
+        "start": 1734.88,
+        "duration": 5.28
+    }, {
+        "text": "\"d\" theta, which I like to think of as signaling\u00a0\nthe fact that some kind of limit is being taken.",
+        "start": 1740.16,
+        "duration": 4.88
+    }, {
+        "text": "What that integral means, by definition, is\u00a0\nwhatever the sum on the bottom approaches\u00a0\u00a0",
+        "start": 1745.92,
+        "duration": 5.76
+    }, {
+        "text": "for finer and finer subdivisions, more dense\u00a0\nsamples that we might take for theta itself.\u00a0\u00a0",
+        "start": 1751.68,
+        "duration": 5.12
+    }, {
+        "text": "And at this point, for those of you who do know\u00a0\ncalculus, I'll just write down the details of how\u00a0\u00a0",
+        "start": 1758.8,
+        "duration": 4.24
+    }, {
+        "text": "you would actually carry this out as you might see\u00a0\nit written down in Bob's notebook. It's the usual\u00a0\u00a0",
+        "start": 1763.04,
+        "duration": 5.04
+    }, {
+        "text": "anti-derivative stuff, but the one key step\u00a0\nis to bring in a certain trig identity.\u00a0\u00a0",
+        "start": 1768.08,
+        "duration": 4.08
+    }, {
+        "text": "In the end, what Bob finds after doing\u00a0\nthis is the surprisingly clean fact\u00a0\u00a0",
+        "start": 1773.28,
+        "duration": 4.48
+    }, {
+        "text": "that the average area for a square's shadow\u00a0\nis precisely one-half the area of that square.\u00a0\u00a0",
+        "start": 1777.76,
+        "duration": 5.68
+    }, {
+        "text": "This is the mystery constant\u00a0\nwhich Alice doesn't yet know.\u00a0\u00a0",
+        "start": 1784.48,
+        "duration": 2.88
+    }, {
+        "text": "If Bob were to look over her shoulder and see\u00a0\nthe work that she's done he could finish out\u00a0\u00a0",
+        "start": 1788.0,
+        "duration": 3.84
+    }, {
+        "text": "the problem right now. He plugs in the constant\u00a0\nthat he just found and he knows the final answer.",
+        "start": 1791.84,
+        "duration": 4.16
+    }, {
+        "text": "And now, finally! With all of this as backdrop,\u00a0\u00a0",
+        "start": 1800.4,
+        "duration": 2.88
+    }, {
+        "text": "what is it that Alice does to\u00a0\ncarry out the final solution?",
+        "start": 1803.28,
+        "duration": 3.28
+    }, {
+        "text": "I introduced her as someone who really\u00a0\nlikes to generalize the results she finds.\u00a0\u00a0",
+        "start": 1806.56,
+        "duration": 4.0
+    }, {
+        "text": "And usually those generalizations end up as\u00a0\ninteresting footnotes that aren't really material\u00a0\u00a0",
+        "start": 1810.56,
+        "duration": 4.48
+    }, {
+        "text": "for solving particular problems. But this is a\u00a0\ncase where the generalization itself draws her to\u00a0\u00a0",
+        "start": 1815.04,
+        "duration": 5.44
+    }, {
+        "text": "a quantitative result. Remember, the substance of\u00a0\nwhat she's found so far is that if you look at any\u00a0\u00a0",
+        "start": 1820.48,
+        "duration": 5.6
+    }, {
+        "text": "convex solid, then the average area for its shadow\u00a0\nis going to be proportional to its surface area.\u00a0\u00a0",
+        "start": 1826.08,
+        "duration": 5.84
+    }, {
+        "text": "And critically, it'll be the same proportionality\u00a0\nconstant across all of these solids. So all Alice\u00a0\u00a0",
+        "start": 1831.92,
+        "duration": 6.0
+    }, {
+        "text": "needs to do is find just a single convex solid out\u00a0\nthere where she already knows the average area of\u00a0\u00a0",
+        "start": 1837.92,
+        "duration": 5.84
+    }, {
+        "text": "its shadow. And some of you may see where this is\u00a0\ngoing, the most symmetric solid available to us is\u00a0\u00a0",
+        "start": 1843.76,
+        "duration": 5.6
+    }, {
+        "text": "a sphere. No matter what the orientation of that\u00a0\nsphere, its shadow, the flat projection shadow,\u00a0\u00a0",
+        "start": 1849.36,
+        "duration": 5.6
+    }, {
+        "text": "is always a circle with an area of pi r squared.\u00a0\nSo in particular that's its average shadow area.\u00a0\u00a0",
+        "start": 1854.96,
+        "duration": 6.0
+    }, {
+        "text": "And the surface area of a sphere, like I\u00a0\nmentioned before, is exactly 4 pi r squared.",
+        "start": 1861.68,
+        "duration": 4.64
+    }, {
+        "text": "By the way, I did make a video talking\u00a0\nall about that surface area formula,\u00a0\u00a0",
+        "start": 1866.88,
+        "duration": 3.6
+    }, {
+        "text": "and how Archimedes proved it thousands of years\u00a0\nbefore calculus existed. So you don't need\u00a0\u00a0",
+        "start": 1870.48,
+        "duration": 4.56
+    }, {
+        "text": "integrals to find it. The magic of what Alice\u00a0\nhas done is that she can take this seemingly\u00a0\u00a0",
+        "start": 1875.04,
+        "duration": 4.72
+    }, {
+        "text": "specific fact, that the shadow of a sphere has\u00a0\nan area exactly one-fourth its surface area,\u00a0\u00a0",
+        "start": 1879.76,
+        "duration": 5.36
+    }, {
+        "text": "and use it to conclude a much more general\u00a0\nfact, that for any convex solid out there\u00a0\u00a0",
+        "start": 1885.12,
+        "duration": 4.32
+    }, {
+        "text": "its shadow and surface area\u00a0\nare related in the same way,\u00a0\u00a0",
+        "start": 1889.44,
+        "duration": 3.04
+    }, {
+        "text": "in a certain sense. Wo with that she can go and\u00a0\nfill in the details of the particular question\u00a0\u00a0",
+        "start": 1892.48,
+        "duration": 5.12
+    }, {
+        "text": "about a cube and say that its average shadow area\u00a0\nwill be one-fourth times its surface area, 6s^2.",
+        "start": 1897.6,
+        "duration": 5.52
+    }, {
+        "text": "But the much more memorable fact that\u00a0\nshe'll go to sleep thinking about\u00a0\u00a0",
+        "start": 1904.16,
+        "duration": 3.12
+    }, {
+        "text": "is how it didn't really matter that\u00a0\nwe were talking about a cube at all.",
+        "start": 1907.28,
+        "duration": 3.12
+    }, {
+        "text": "Now, that's all very pretty, but some of you might\u00a0\ncomplain that this isn't really a valid argument,\u00a0\u00a0",
+        "start": 1912.32,
+        "duration": 4.72
+    }, {
+        "text": "because spheres don't have flat faces. When I said\u00a0\nAlice's argument generalizes to any convex solid,\u00a0\u00a0",
+        "start": 1917.04,
+        "duration": 6.4
+    }, {
+        "text": "if we actually look at the argument itself,\u00a0\nit definitely depends on the use of a finite\u00a0\u00a0",
+        "start": 1923.44,
+        "duration": 4.32
+    }, {
+        "text": "number of flat faces. For example, if\u00a0\nwe were mapping it to a dodecahedron,\u00a0\u00a0",
+        "start": 1927.76,
+        "duration": 3.92
+    }, {
+        "text": "you would start by saying that the area of\u00a0\na particular shadow of that dodokahedron\u00a0\u00a0",
+        "start": 1931.68,
+        "duration": 4.24
+    }, {
+        "text": "looks like exactly one half times the sum of\u00a0\nthe areas of the shadows of all its faces.",
+        "start": 1935.92,
+        "duration": 4.8
+    }, {
+        "text": "Snce again you could use a certain\u00a0\nray-of-light-mixed-with-convexity argument\u00a0\u00a0",
+        "start": 1940.72,
+        "duration": 3.44
+    }, {
+        "text": "to draw that conclusion. And remember the benefit\u00a0\nof expressing that shadow area as a sum is that\u00a0\u00a0",
+        "start": 1944.16,
+        "duration": 6.16
+    }, {
+        "text": "when we want to average over a bunch of different\u00a0\nrotations, we can describe that sum as a big grid,\u00a0\u00a0",
+        "start": 1950.32,
+        "duration": 5.52
+    }, {
+        "text": "where we can then go column-by-column and consider\u00a0\nthe average area for the shadow of each face.\u00a0\u00a0",
+        "start": 1955.84,
+        "duration": 4.8
+    }, {
+        "text": "And also, a critical fact was the conclusion from\u00a0\nmuch earlier that the average shadow for any 2d\u00a0\u00a0",
+        "start": 1961.2,
+        "duration": 4.88
+    }, {
+        "text": "object (a flat 2d object, which is important)\u00a0\nwill equal some universal proportionality\u00a0\u00a0",
+        "start": 1966.08,
+        "duration": 5.28
+    }, {
+        "text": "constant times its area. The significance was that\u00a0\nthat constant didn't depend on the shape itself,\u00a0\u00a0",
+        "start": 1971.36,
+        "duration": 4.72
+    }, {
+        "text": "it could have been a square, or a cat, or the\u00a0\npentagonal faces of our dodecahedron, whatever.",
+        "start": 1976.08,
+        "duration": 4.72
+    }, {
+        "text": "So after hastily carrying this over to a sphere\u00a0\nthat doesn't have a finite number of flat faces,\u00a0\u00a0",
+        "start": 1981.44,
+        "duration": 5.6
+    }, {
+        "text": "you would be right to complain. But luckily,\u00a0\nit's a pretty easy detail to fill in.\u00a0\u00a0",
+        "start": 1987.04,
+        "duration": 4.4
+    }, {
+        "text": "What you can do is imagine a sequence of different\u00a0\npolyhedra that successively approximate a sphere,\u00a0\u00a0",
+        "start": 1991.44,
+        "duration": 5.68
+    }, {
+        "text": "in the sense that their faces hug tighter and\u00a0\ntighter around the genuine surface of the sphere.\u00a0\u00a0",
+        "start": 1997.12,
+        "duration": 4.0
+    }, {
+        "text": "For each one of those approximations, we can draw\u00a0\nthe same conclusion that its average shadow is\u00a0\u00a0",
+        "start": 2001.84,
+        "duration": 4.8
+    }, {
+        "text": "going to be proportional to its surface area, with\u00a0\nthis universal proportionality constant. So then,\u00a0\u00a0",
+        "start": 2006.64,
+        "duration": 4.72
+    }, {
+        "text": "if we say \"okay, let's take the limit of the\u00a0\nratio between the average shadow area at each step\u00a0\u00a0",
+        "start": 2011.36,
+        "duration": 5.36
+    }, {
+        "text": "and the surface area at each step...\" Well, since\u00a0\nthat ratio is never changing, it's always equal to\u00a0\u00a0",
+        "start": 2016.72,
+        "duration": 4.72
+    }, {
+        "text": "this constant, then in the limit it's also going\u00a0\nto equal that constant. But on the other hand,\u00a0\u00a0",
+        "start": 2021.44,
+        "duration": 4.96
+    }, {
+        "text": "by their definition, in the limit their average\u00a0\nshadow area should be that of a circle which is\u00a0\u00a0",
+        "start": 2026.4,
+        "duration": 4.96
+    }, {
+        "text": "pi r squared, and the limit of the surface areas\u00a0\nwould be the surface area of the sphere, 4 pi\u00a0\u00a0",
+        "start": 2031.36,
+        "duration": 5.04
+    }, {
+        "text": "r squared. So we do genuinely get the conclusion\u00a0\nthat intuition would suggest, but as is so common\u00a0\u00a0",
+        "start": 2036.4,
+        "duration": 5.84
+    }, {
+        "text": "with Alice's argument here, we do have to be a\u00a0\nlittle delicate in how we justify that intuition.",
+        "start": 2042.24,
+        "duration": 4.72
+    }, {
+        "text": "It's easy for this contrast of Alice and\u00a0\nBob to come across like a value judgment,\u00a0\u00a0",
+        "start": 2052.32,
+        "duration": 4.56
+    }, {
+        "text": "as if I'm saying \"Look how\u00a0\nclever Alice has managed to be!\u00a0\u00a0",
+        "start": 2056.88,
+        "duration": 2.96
+    }, {
+        "text": "She insightfully avoided all those\u00a0\ncomputations that Bob had to do.\"",
+        "start": 2059.84,
+        "duration": 3.28
+    }, {
+        "text": "But that would be a very...misguided conclusion.\u00a0\u00a0",
+        "start": 2064.0,
+        "duration": 3.84
+    }, {
+        "text": "I think there's an important way that\u00a0\npopularizations of math differ from the\u00a0\u00a0",
+        "start": 2068.4,
+        "duration": 3.76
+    }, {
+        "text": "feeling of actually doing math. There's this bias\u00a0\ntowards showing the slick proofs, the arguments\u00a0\u00a0",
+        "start": 2072.16,
+        "duration": 5.12
+    }, {
+        "text": "with some clever key insight that lets you avoid\u00a0\ndoing calculations. I could just be projecting,\u00a0\u00a0",
+        "start": 2077.28,
+        "duration": 5.2
+    }, {
+        "text": "since I'm very guilty of this, but what I can tell\u00a0\nyou sitting on the other side of the screen here\u00a0\u00a0",
+        "start": 2082.48,
+        "duration": 4.56
+    }, {
+        "text": "is that it feels a lot more attractive to make a\u00a0\nvideo about Alice's approach than Bob's. For one,\u00a0\u00a0",
+        "start": 2087.04,
+        "duration": 5.52
+    }, {
+        "text": "thing in Alice's approach the line of reasoning\u00a0\nis fun. It has these nice aha moments.",
+        "start": 2092.56,
+        "duration": 4.88
+    }, {
+        "text": "But also, crucially, the way that you explain it\u00a0\nis more or less the same for a very wide range\u00a0\u00a0",
+        "start": 2097.44,
+        "duration": 5.12
+    }, {
+        "text": "of mathematical backgrounds. It's much less\u00a0\nenticing to do a video about bob's approach,\u00a0\u00a0",
+        "start": 2102.56,
+        "duration": 4.88
+    }, {
+        "text": "not because the computations are all\u00a0\nthat bad. I mean they're honestly not.\u00a0\u00a0",
+        "start": 2107.44,
+        "duration": 3.76
+    }, {
+        "text": "But the pragmatic reality is that\u00a0\nthe appropriate pace to explain it\u00a0\u00a0",
+        "start": 2111.2,
+        "duration": 3.76
+    }, {
+        "text": "looks very different depending on the different\u00a0\nmathematical backgrounds in the audience.",
+        "start": 2114.96,
+        "duration": 3.84
+    }, {
+        "text": "So you watching this right now\u00a0\nclearly consume math videos online,\u00a0\u00a0",
+        "start": 2119.6,
+        "duration": 4.08
+    }, {
+        "text": "and I think in doing so it's\u00a0\nworth being aware of this bias.",
+        "start": 2123.68,
+        "duration": 3.28
+    }, {
+        "text": "If the aim is to have a genuine lesson on problem\u00a0\nsolving, too much focus on the slick proofs runs\u00a0\u00a0",
+        "start": 2126.96,
+        "duration": 5.76
+    }, {
+        "text": "the risk of being disingenuous. For example let's\u00a0\nsay we were to step up to challenge mode here\u00a0\u00a0",
+        "start": 2132.72,
+        "duration": 6.0
+    }, {
+        "text": "and ask about the case with a closer light source.\u00a0\nTo my knowledge there is not a similarly slick\u00a0\u00a0",
+        "start": 2138.72,
+        "duration": 5.28
+    }, {
+        "text": "solution to Alice's here, where you can\u00a0\njust relate to a single shape like a sphere.\u00a0\u00a0",
+        "start": 2144.0,
+        "duration": 4.08
+    }, {
+        "text": "The much more productive warm-up to have done\u00a0\nwould have been the calculus of Bob's approach.",
+        "start": 2148.64,
+        "duration": 4.56
+    }, {
+        "text": "And if you look at the history of this\u00a0\nproblem, it was proved by Cauchy in 1832.\u00a0\u00a0",
+        "start": 2154.0,
+        "duration": 4.88
+    }, {
+        "text": "And if we paw through his handwritten notes,\u00a0\u00a0",
+        "start": 2158.88,
+        "duration": 2.4
+    }, {
+        "text": "they look a lot more similar to Bob's work than\u00a0\nAlice's work. Right here at the top of page 11,\u00a0\u00a0",
+        "start": 2161.28,
+        "duration": 5.12
+    }, {
+        "text": "you can see what is essentially the same\u00a0\nintegral that you and I set up in the middle.",
+        "start": 2166.4,
+        "duration": 3.92
+    }, {
+        "text": "On the other hand, the whole framing\u00a0\nof the paper is to find a general fact,\u00a0\u00a0",
+        "start": 2171.12,
+        "duration": 3.76
+    }, {
+        "text": "not something specific like the case of\u00a0\na cube, so if we were asking the question\u00a0\u00a0",
+        "start": 2174.88,
+        "duration": 4.24
+    }, {
+        "text": "which of these two mindsets correlates\u00a0\nwith the act of discovering new math,\u00a0\u00a0",
+        "start": 2179.12,
+        "duration": 4.0
+    }, {
+        "text": "the right answer would almost certainly have\u00a0\nto be a blend of both. But I would suggest that\u00a0\u00a0",
+        "start": 2183.12,
+        "duration": 5.12
+    }, {
+        "text": "many people don't assign enough weight to the\u00a0\npart of that blend where you're eager to dive\u00a0\u00a0",
+        "start": 2188.24,
+        "duration": 4.96
+    }, {
+        "text": "into calculations. And I think there's some risk\u00a0\nthat the videos I make might contribute to that.",
+        "start": 2193.2,
+        "duration": 4.8
+    }, {
+        "text": "In the podcast that I did with the\u00a0\nmathematician Alex Kontorovich, he talked\u00a0\u00a0",
+        "start": 2198.96,
+        "duration": 3.76
+    }, {
+        "text": "about the often underappreciated importance of\u00a0\njust drilling on computations to build intuition,\u00a0\u00a0",
+        "start": 2202.72,
+        "duration": 5.44
+    }, {
+        "text": "whether you're a student engaging with a new\u00a0\nclass, or a practicing research mathematician\u00a0\u00a0",
+        "start": 2208.16,
+        "duration": 4.4
+    }, {
+        "text": "engaging with a new field of study. A listener\u00a0\nactually wrote in to highlight what an impression\u00a0\u00a0",
+        "start": 2212.56,
+        "duration": 4.88
+    }, {
+        "text": "that particular section made. They're a Ph.D.\u00a0\nstudent, and described themselves as being worried\u00a0\u00a0",
+        "start": 2217.44,
+        "duration": 4.96
+    }, {
+        "text": "that their mathematical abilities were starting to\u00a0\nfade, which they attributed to becoming older and\u00a0\u00a0",
+        "start": 2222.4,
+        "duration": 4.56
+    }, {
+        "text": "less sharp. But hearing a practicing mathematician\u00a0\ntalk about the importance of doing hundreds of\u00a0\u00a0",
+        "start": 2226.96,
+        "duration": 4.88
+    }, {
+        "text": "concrete examples in order to learn something\u00a0\nnew, evidently that changed their perspective.\u00a0\u00a0",
+        "start": 2231.84,
+        "duration": 4.88
+    }, {
+        "text": "In their own words, recognizing this completely\u00a0\nreshaped their outlook and their results.\u00a0\u00a0",
+        "start": 2236.72,
+        "duration": 4.32
+    }, {
+        "text": "And if you look at the famous mathematicians\u00a0\nthrough history, You know Newton, Euler, Gauss,\u00a0\u00a0",
+        "start": 2241.76,
+        "duration": 3.84
+    }, {
+        "text": "all of them, they all have this seemingly\u00a0\ninfinite patience for doing tedious calculations.",
+        "start": 2245.6,
+        "duration": 4.96
+    }, {
+        "text": "The irony of being biased to show insights\u00a0\nthat let us avoid calculations is that the\u00a0\u00a0",
+        "start": 2251.12,
+        "duration": 5.2
+    }, {
+        "text": "way people often train up the intuitions\u00a0\nto find those insights in the first place\u00a0\u00a0",
+        "start": 2256.32,
+        "duration": 4.0
+    }, {
+        "text": "is by doing piles and piles of calculations.",
+        "start": 2260.32,
+        "duration": 2.24
+    }, {
+        "text": "All that said, something would definitely\u00a0\nbe missing without the Alice mindset here.",
+        "start": 2264.88,
+        "duration": 4.8
+    }, {
+        "text": "I mean think about it how sad would it\u00a0\nbe if we solved this problem for a cube,\u00a0\u00a0",
+        "start": 2269.68,
+        "duration": 3.52
+    }, {
+        "text": "and we never stepped outside of the trees\u00a0\nto see the forest and understand that\u00a0\u00a0",
+        "start": 2273.2,
+        "duration": 3.6
+    }, {
+        "text": "this is a super general fact, it\u00a0\napplies to a huge family of shapes.\u00a0\u00a0",
+        "start": 2276.8,
+        "duration": 3.44
+    }, {
+        "text": "And if you consider that math is not just about\u00a0\nanswering the questions that are posed to you,\u00a0\u00a0",
+        "start": 2281.28,
+        "duration": 4.08
+    }, {
+        "text": "but about introducing new ideas and constructs,\u00a0\none fun side note about Alice's approach here\u00a0\u00a0",
+        "start": 2285.36,
+        "duration": 5.44
+    }, {
+        "text": "is that it suggests a fun way to quantify the\u00a0\nidea of convexity. Rather than just having a\u00a0\u00a0",
+        "start": 2290.8,
+        "duration": 5.36
+    }, {
+        "text": "yes/no answer, is it convex is it not, we could\u00a0\nput a number to it by saying: Consider the average\u00a0\u00a0",
+        "start": 2296.16,
+        "duration": 5.28
+    }, {
+        "text": "area of the shadow of some solid, multiply\u00a0\nthat by four, divide by the surface area,\u00a0\u00a0",
+        "start": 2301.44,
+        "duration": 5.44
+    }, {
+        "text": "and if that number is 1 you've got a\u00a0\nconvex solid. But if it's less than 1,\u00a0\u00a0",
+        "start": 2306.88,
+        "duration": 3.84
+    }, {
+        "text": "it's non-convex, and how close it is to 1\u00a0\ntells you how close it is to being convex.",
+        "start": 2310.72,
+        "duration": 5.52
+    }, {
+        "text": "Also, one of the nice things about the Alice\u00a0\nsolution here is that it helps explain why it\u00a0\u00a0",
+        "start": 2316.96,
+        "duration": 4.64
+    }, {
+        "text": "is that mathematicians have what can sometimes\u00a0\nlook like a bizarre infatuation with generality,\u00a0\u00a0",
+        "start": 2321.6,
+        "duration": 5.6
+    }, {
+        "text": "and with abstraction. The more examples that\u00a0\nyou see where generalizing and abstracting\u00a0\u00a0",
+        "start": 2327.2,
+        "duration": 4.72
+    }, {
+        "text": "actually helps you to solve a specific case, well\u00a0\nthe more you start to adopt the same infatuation.",
+        "start": 2331.92,
+        "duration": 5.28
+    }, {
+        "text": "And as a final thought, for the stalwart viewers\u00a0\namong you who've stuck through it this far,\u00a0\u00a0",
+        "start": 2338.96,
+        "duration": 3.84
+    }, {
+        "text": "there is still one unanswered question\u00a0\nabout the very premise of our puzzle.\u00a0\u00a0",
+        "start": 2343.44,
+        "duration": 3.44
+    }, {
+        "text": "What exactly does it mean to choose a random\u00a0\norientation? Now if that feels like a silly\u00a0\u00a0",
+        "start": 2347.6,
+        "duration": 4.96
+    }, {
+        "text": "question, like, of course we know what it should\u00a0\nmean, I would encourage you to watch a video\u00a0\u00a0",
+        "start": 2352.56,
+        "duration": 3.52
+    }, {
+        "text": "that I just did with Numberphile on a conundrum\u00a0\nfrom probability known as \"Bertrand's Paradox\".\u00a0\u00a0",
+        "start": 2356.08,
+        "duration": 4.64
+    }, {
+        "text": "After you watch it, and if you appreciate some of\u00a0\nthe nuance at play here, homework for you is to\u00a0\u00a0",
+        "start": 2361.36,
+        "duration": 4.4
+    }, {
+        "text": "reflect on where exactly Alice and Bob implicitly\u00a0\nanswered this question. The case with Bob is\u00a0\u00a0",
+        "start": 2365.76,
+        "duration": 6.4
+    }, {
+        "text": "relatively straightforward, but the point at which\u00a0\nAlice locks down some specific distribution on the\u00a0\u00a0",
+        "start": 2372.16,
+        "duration": 5.28
+    }, {
+        "text": "space of all orientations...well it's not\u00a0\nat all obvious, it's actually very subtle.",
+        "start": 2377.44,
+        "duration": 4.4
+    }
+]
